@@ -5,20 +5,22 @@ function countStudents(students: number[], sandwiches: number[]): number {
         [0, 0] 
     );
 
-    while (students.length !== 0) {
-        if (sandwiches[0] === 0 && zeroStudents === 0) break;
-        if (sandwiches[0] === 1 && oneStudens === 0) break;
-
-        if (students[0] === sandwiches[0]) {
-            if (students[0] === 0) zeroStudents--;
-            else oneStudens--;
-
-            students.shift()
-            sandwiches.shift();
-        } else {
-            students.push(students.shift())
+    for (let i = 0; i < sandwiches.length; i++) {
+        if (sandwiches[i] === 1) {
+            if (oneStudens > 0) {
+                oneStudens--;
+            } else {
+                return zeroStudents;
+            }
+        }
+        if (sandwiches[i] === 0) {
+            if (zeroStudents > 0) {
+                zeroStudents--;
+            } else {
+                return oneStudens;
+            }
         }
     }
-
-    return students.length;
+        
+    return 0;
 };
