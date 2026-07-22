@@ -15,13 +15,19 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Stack
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/misha366/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/misha366/leetcode-solutions/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 ## Queue
 |  |
 | ------- |
+| [0225-implement-stack-using-queues](https://github.com/misha366/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/misha366/leetcode-solutions/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 ## Simulation
 |  |
 | ------- |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/misha366/leetcode-solutions/tree/master/1700-number-of-students-unable-to-eat-lunch) |
+## Design
+|  |
+| ------- |
+| [0225-implement-stack-using-queues](https://github.com/misha366/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 <!---LeetCode Topics End-->
