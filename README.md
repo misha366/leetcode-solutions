@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/misha366/leetcode-solutions/tree/master/0001-two-sum) |
+| [0794-valid-tic-tac-toe-state](https://github.com/misha366/leetcode-solutions/tree/master/0794-valid-tic-tac-toe-state) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/misha366/leetcode-solutions/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 ## Hash Table
 |  |
@@ -60,4 +61,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/misha366/leetcode-solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
+## Matrix
+|  |
+| ------- |
+| [0794-valid-tic-tac-toe-state](https://github.com/misha366/leetcode-solutions/tree/master/0794-valid-tic-tac-toe-state) |
 <!---LeetCode Topics End-->
