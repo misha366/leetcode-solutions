@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/misha366/leetcode-solutions/tree/master/0001-two-sum) |
+| [0027-remove-element](https://github.com/misha366/leetcode-solutions/tree/master/0027-remove-element) |
 | [0485-max-consecutive-ones](https://github.com/misha366/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0794-valid-tic-tac-toe-state](https://github.com/misha366/leetcode-solutions/tree/master/0794-valid-tic-tac-toe-state) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/misha366/leetcode-solutions/tree/master/1700-number-of-students-unable-to-eat-lunch) |
@@ -66,4 +67,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0794-valid-tic-tac-toe-state](https://github.com/misha366/leetcode-solutions/tree/master/0794-valid-tic-tac-toe-state) |
+## Two Pointers
+|  |
+| ------- |
+| [0027-remove-element](https://github.com/misha366/leetcode-solutions/tree/master/0027-remove-element) |
 <!---LeetCode Topics End-->
