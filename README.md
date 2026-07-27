@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0009-palindrome-number](https://github.com/misha366/leetcode-solutions/tree/master/0009-palindrome-number) |
 | [0070-climbing-stairs](https://github.com/misha366/leetcode-solutions/tree/master/0070-climbing-stairs) |
 | [2834-find-the-minimum-possible-sum-of-a-beautiful-array](https://github.com/misha366/leetcode-solutions/tree/master/2834-find-the-minimum-possible-sum-of-a-beautiful-array) |
 | [3658-gcd-of-odd-and-even-sums](https://github.com/misha366/leetcode-solutions/tree/master/3658-gcd-of-odd-and-even-sums) |
