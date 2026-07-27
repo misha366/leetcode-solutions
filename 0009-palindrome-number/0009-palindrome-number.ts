@@ -10,7 +10,7 @@ function isPalindrome(x: number): boolean {
         right = Math.floor(s.length / 2);
     }
 
-    while (left >= 0 && right <= s.length) {
+    while (left >= 0 && right <= s.length - 1) {
         if (s[left] !== s[right]) return false;
         left--;
         right++;
