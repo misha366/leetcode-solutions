@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/misha366/leetcode-solutions/tree/master/0485-max-consecutive-ones) |
 | [0643-maximum-average-subarray-i](https://github.com/misha366/leetcode-solutions/tree/master/0643-maximum-average-subarray-i) |
 | [0794-valid-tic-tac-toe-state](https://github.com/misha366/leetcode-solutions/tree/master/0794-valid-tic-tac-toe-state) |
+| [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/misha366/leetcode-solutions/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/misha366/leetcode-solutions/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1929-concatenation-of-array](https://github.com/misha366/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 ## Hash Table
