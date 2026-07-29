@@ -4,12 +4,12 @@ function calPoints(operations: string[]): number {
 
     for (let i = 0; i < operations.length; i++) {
         if (operations[i] === '+') {
-            const n = resTrack.at(-1) + resTrack.at(-2);
+            const n = resTrack[resTrack.length - 1] + resTrack[resTrack.length - 2];
             res += n;
             resTrack.push(n);
         }
         else if (operations[i] === 'D') {
-            const n = resTrack.at(-1) * 2;
+            const n = resTrack[resTrack.length - 1] * 2;
             res += n;
             resTrack.push(n);
         }
