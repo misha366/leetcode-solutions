@@ -12,7 +12,7 @@
 
 function reverseList(head: ListNode | null): ListNode | null {
     let current = head;
-    let prev: ListNode | null = null;
+    let prev = null;
 
     while (current !== null) {
         let next = current.next;
