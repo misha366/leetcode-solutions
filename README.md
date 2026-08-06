@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0682-baseball-game](https://github.com/misha366/leetcode-solutions/tree/master/0682-baseball-game) |
 | [0794-valid-tic-tac-toe-state](https://github.com/misha366/leetcode-solutions/tree/master/0794-valid-tic-tac-toe-state) |
 | [1299-replace-elements-with-greatest-element-on-right-side](https://github.com/misha366/leetcode-solutions/tree/master/1299-replace-elements-with-greatest-element-on-right-side) |
+| [1472-design-browser-history](https://github.com/misha366/leetcode-solutions/tree/master/1472-design-browser-history) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/misha366/leetcode-solutions/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 | [1929-concatenation-of-array](https://github.com/misha366/leetcode-solutions/tree/master/1929-concatenation-of-array) |
 ## Hash Table
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/misha366/leetcode-solutions/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/misha366/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [0682-baseball-game](https://github.com/misha366/leetcode-solutions/tree/master/0682-baseball-game) |
+| [1472-design-browser-history](https://github.com/misha366/leetcode-solutions/tree/master/1472-design-browser-history) |
 | [1700-number-of-students-unable-to-eat-lunch](https://github.com/misha366/leetcode-solutions/tree/master/1700-number-of-students-unable-to-eat-lunch) |
 ## Queue
 |  |
@@ -45,12 +47,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/misha366/leetcode-solutions/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/misha366/leetcode-solutions/tree/master/0225-implement-stack-using-queues) |
 | [0707-design-linked-list](https://github.com/misha366/leetcode-solutions/tree/master/0707-design-linked-list) |
+| [1472-design-browser-history](https://github.com/misha366/leetcode-solutions/tree/master/1472-design-browser-history) |
 ## Linked List
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/misha366/leetcode-solutions/tree/master/0021-merge-two-sorted-lists) |
 | [0206-reverse-linked-list](https://github.com/misha366/leetcode-solutions/tree/master/0206-reverse-linked-list) |
 | [0707-design-linked-list](https://github.com/misha366/leetcode-solutions/tree/master/0707-design-linked-list) |
+| [1472-design-browser-history](https://github.com/misha366/leetcode-solutions/tree/master/1472-design-browser-history) |
 ## Recursion
 |  |
 | ------- |
@@ -99,4 +103,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/misha366/leetcode-solutions/tree/master/0005-longest-palindromic-substring) |
 | [0020-valid-parentheses](https://github.com/misha366/leetcode-solutions/tree/master/0020-valid-parentheses) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/misha366/leetcode-solutions/tree/master/1472-design-browser-history) |
+## Data Stream
+|  |
+| ------- |
+| [1472-design-browser-history](https://github.com/misha366/leetcode-solutions/tree/master/1472-design-browser-history) |
 <!---LeetCode Topics End-->
