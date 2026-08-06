@@ -5,47 +5,32 @@ interface BrowserHistoryNode {
 }
 
 class BrowserHistory {
-    private tail: BrowserHistoryNode;
-    private head: BrowserHistoryNode;
     private current: BrowserHistoryNode;
 
     constructor(homepage: string) {
-        this.tail = { val: homepage, prev: null, next: null };
-        this.head = this.tail;
-        this.current = this.tail;
+        this.current = { val: homepage, prev: null, next: null };
     }
 
     visit(url: string): void {
         let prev = this.current;
         this.current = { val: url, prev, next: null };
         prev.next = this.current;
-        this.tail = this.current;
     }
 
     back(steps: number): string {
-        let current = this.current;
-        for (let i = 0; i < steps; i++) {
-            if (current.prev === null) {
-                this.current = current;
-                return current.val;
-            }
-            current = current.prev;
+        while (steps > 0 && this.current.prev !== null) {
+            steps--;
+            this.current = this.current.prev;
         }
-        this.current = current;
-        return current.val;
+        return this.current.val;
     }
 
     forward(steps: number): string {
-        let current = this.current;
-        for (let i = 0; i < steps; i++) {
-            if (current.next === null) {
-                this.current = current;
-                return current.val;
-            }
-            current = current.next;
+        while (steps > 0 && this.current.next !== null) {
+            steps--;
+            this.current = this.current.next;
         }
-        this.current = current;
-        return current.val;
+        return this.current.val;
     }
 }
 
