@@ -1,27 +1,36 @@
-function calPoints(operations: string[]): number {
-    let resTrack = [];
-    let res = 0;
+/*
+  ops = ["5","2","C","D","+"]
+  rec = []
 
-    for (let i = 0; i < operations.length; i++) {
-        if (operations[i] === '+') {
-            const n = resTrack[resTrack.length - 1] + resTrack[resTrack.length - 2];
-            res += n;
-            resTrack.push(n);
-        }
-        else if (operations[i] === 'D') {
-            const n = resTrack[resTrack.length - 1] * 2;
-            res += n;
-            resTrack.push(n);
-        }
-        else if (operations[i] === 'C') {
-            res -= resTrack.pop();
-        }
-        else {
-            const n = +operations[i];
-            res += n;
-            resTrack.push(n);
+  1 "5" - else branch
+  rec = [5]
+  2 "2" - else branch
+  rec = [5, 2]
+  3 "C" - else branch
+  rec = [5]
+  4 "D" - else branch
+  rec = [5, 10]
+  5 "+" - else branch
+  rec = [5, 10, 15]
+
+  5 + 10 + 15 = 30
+
+*/ 
+
+function calPoints(operations: string[]): number {
+    const rec = [];
+
+    for (const operation of operations) {
+        if (operation === '+') {
+            rec.push(rec.at(-1) + rec.at(-2));
+        } else if (operation === 'D') {
+            rec.push(rec.at(-1) * 2);
+        } else if (operation === 'C') {
+            rec.pop();
+        } else {
+            rec.push(Number(operation));
         }
     }
-
-    return res;
+    
+    return rec.reduce((acc, cur) => acc += cur, 0);
 };
